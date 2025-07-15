@@ -11,13 +11,15 @@ import { createRoot } from 'react-dom/client'
 // import ObjData from './DisplayData/ObjData.jsx'
 // import ArrayData from './DisplayData/ArrayData.jsx'
 
-import Student from "./Student.jsx"
-import ComponentA from './MiniProject/index.jsx'
-import "./style.css"
+// import Student from "./Student.jsx"
+// import ComponentA from './MiniProject/index.jsx'
+// import "./style.css"
+// import Buttons from './Events/Btns.jsx'
+import Myform from './Events/Form.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  <ComponentA/>
+     <Myform/>
   </StrictMode>,
 )
 
