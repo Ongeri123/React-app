@@ -1,0 +1,31 @@
+.border-container{
+    /* border: 2px solid black; */
+    margin: 5px;
+}
+
+.component-c-container{
+    display:flex;
+    gap: 250px;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+
+
+.border-container img {
+    width: 450px;   /* or any desired value */
+    height: auto;   /* maintains aspect ratio */
+}
+
+.border-container Card{
+    background-color: gray;
+}
+
+.txt-container{
+    background-color: lightslategray;
+    width: 300px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
