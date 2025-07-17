@@ -15,11 +15,15 @@ import { createRoot } from 'react-dom/client'
 // import ComponentA from './MiniProject/index.jsx'
 // import "./style.css"
 // import Buttons from './Events/Btns.jsx'
-import Myform from './Events/Form.jsx'
+// import Myform from './Events/Form.jsx'
+// import SimpleState from './Hooks/State/SimpleState.jsx'
+// import SimpleState2  from './Hooks/State/SimpleState2'
+// import FormState from './Hooks/State/FormState'
+import SimpleEffect from './Hooks/Effects/SimpleEffect'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <Myform/>
+     <SimpleEffect/>
   </StrictMode>,
 )
 
